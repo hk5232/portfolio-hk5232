@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>DropItem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Kawamoto Hiroki</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>DropItem</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+            <img src="../images/work/03/dropitem.png" class="show-pc">
+            <!-- images/01に配置した、FURIMAの画像（SP版）のパスを記載する -->
+            <img src="../images/work/03/dropitem_sp.png" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code </p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/hk5232/drop-item" target="_blank">https://github.com/hk5232/drop-item</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>80時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://drop-item.herokuapp.com/" target="_blank">https://drop-item.herokuapp.com/</a></td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>取得テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>aa@aa</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>aaaaa1</td>
+                </tr>
+              </table>
+              
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：14 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、落とし物をした人や発見した人のために開発しました、
+落とし物情報共有アプリになります。
+                <br>
+                主な機能は、ユーザー管理機能、落とし物情報管理機能、マップ機能になります
+              </p>
+              <p>
+                トップページにアクセスすると、新着の落とし物情報と、ヘッダーにアカウント機能、右下にマップ機能と落とし物情報登録機能へのアクセスボタンがあります。
+              </p>
+              <p>
+                落とし物情報登録機能に飛ぶと、画像、名前、場所に加え、Googleマップを利用しての位置情報を登録することができます。
+              </p>
+              <p>
+                マップ機能では登録されている落とし物情報をGoogleマップで一覧で確認することができます。
+              <br>
+                また落とし物を取得した場合、位置情報の削除と取得ずみといったアイコンが表示されるようになっています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  昔、Ipodを無くした際に１日中外にいた日でどこに落としたかわからない時があり、探しに行くにしても候補がたくさんあり、警察に届け出するにも落とした場所がわからない時があり困りました。
+                </p>
+                <p>
+                  そんな時に落とし物の情報をまとめているアプリがあったらいいなと思っていたため、今回実装しました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/03/ajax.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    非同期処理で部分テンプレートを更新することです。
+                  </p>
+                  <p>
+                    マップ内に表示されているマーカーをリストにしたいと考えた際、コントローラーを介した際に帰ってくる変数を利用したeach文、もしくはfor文を想定していたのだが処理がうまくいかず大変でした。
+                    <br>
+                    そのため帰ってくる値をHTML形式に指定し、帰ってきたHTMLを部分テンプレートに投げることで非同期処理での更新に成功しました。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/03/request.png">
+                </div>
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    １つ目が依頼機能です。
+                  </p>
+                  <p>
+                    どこどこに何々を落としたので見つけたら連絡くださいといった機能を追加したいと思っています。
+依頼機能があることで利便性がより上がり、双方向の使い方ができると考えるからです。
+                  </p>
+                  <p>
+                    ２つ目がポイント機能です。
+                    <br>
+                    自身が投稿した落とし物に対して取得されたら、ポイントを加算していき、
+ランクや何かのポイントなどへの交換機能などを実装したいです。
+そうすることでより活発なアプリ利用が促されると考えるからです。
+                  </p>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+      <section id="a-works" class="works">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>WORKS<span>実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="works__list">
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/furima.jpeg');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：18 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：19 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/yugi-quiz.png');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：20 -->
+                  <h3>YUGI-Quiz</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="03.html" style="background-image:url('../images/work/03/dropitem.png');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：20 -->
+                  <h3>DropItem</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="03.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Kawamoto Hiroki.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>

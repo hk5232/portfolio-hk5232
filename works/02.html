@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>YUGI-Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Kawamoto Hiroki</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>YUGI-Quiz</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/yugi-quiz.png" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/yugi-quiz_sp.png" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/hk5232/yugi-quiz" target="_blank">https://github.com/hk5232/yugi-quiz</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>40時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://yugi-quiz.herokuapp.com/" target="_blank">https://yugi-quiz.herokuapp.com/</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>admin</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>pass</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、自身が１から作っていけるかの確認のために開発しました。
+                <br>
+                名前の通り、遊戯王カードの30秒クイズアプリになります。
+                <br>
+                主な機能は、クエスチョン機能、アンサー機能、時間制限機能、ランダム出題機能、問題作成機能（管理者機能）になります。
+              </p>
+              <p>
+                トップページにアクセスすると、モンスター、魔法、罠、全てから出題範囲、何問答えるか、画像問題かテキスト問題かの三個の項目を選ぶことができます。
+              </p>
+              <p>
+                アンサーページに飛ぶと、選んだ出題範囲の問題が、画像orテキストで出題され、正解の答えと同一出題範囲の答えがランダムに選ばれ選択肢として表示されます。またヒントボタンを押すことで隠れている画像orテキストを表示できます。
+              </p>
+              <p>
+                30秒を超える、または選択した問題数が終わると、何問中何問正解回答をしたかが表示されます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  近頃、新しい遊戯王アプリが開発され、にわかに遊戯王が盛り上がってきているのを体感し、遊戯王世代である自分自身や友人たちの間で昔のカードの話になることがありました。
+                </p>
+                <p>
+                  現状カードの種類が１万種類をこえている中で、私たちの一番楽しかった時代の記憶を友達と共有し盛り上がりたいと思い、クイズアプリを作成しました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/start.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    １つ目が時間制限のかけ方です。アクションを複数に分け、最初のアクション実行時にタイムをとり、以後他アクション実行時に最初のアクションのタイムとの差を求めることで時間制限をかけることに成功しました。
+                  </p>
+                  <p>
+                    ２つ目がsessionの使い方です。選択した出題範囲や答えなどをDBに保存するわけにはいかず、アクション間をsessionで仲介し、無事にデータの引き渡しを行うことに成功しました。
+                  </p>
+                  <p>
+                    ３つ目が問題や答えの取得について。データベースから問題や答えを持ってくる際にwhereで条件指定をし、更に最初に取得したものを除いた偽の答えの情報を取得し、１つにしてランダムに表示するのを工夫しました。
+取得したデータが、ハッシュやアクティブコントローラーパラメータなどが混在してしまい、上手に表示するのに苦労しました。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/time.png">
+                </div>
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    １つ目に時間制限が目に見えるような機能を実装したいです。
+                  </p>
+                  <p>
+                    実際に３０秒という短い時間で制限を設けたが、どのぐらい時間が経ったのかなど全くわからず、残り時間をリアルタイムで確認できる機能を実装したいです。
+                  </p>
+                  <p>
+                    ２つ目にランキング機能を実装したいです。
+                    <br>
+                    今回はユーザー機能をつけていないため実装していないが、ユーザー同士での競争や比較ができるようにユーザー機能を実装してランキング機能を実装したいです。
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="a-works" class="works">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>WORKS<span>実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="works__list">
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/furima.jpeg');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：18 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：19 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/yugi-quiz.png');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：20 -->
+                  <h3>YUGI-Quiz</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="works__item">
+                <div class="works__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="03.html" style="background-image:url('../images/work/03/dropitem.png');"></a>
+                </div>
+                <div class="works__item-text-block">
+                  <!-- 記載番号：20 -->
+                  <h3>DropItem</h3>
+                  <!-- 記載番号：21 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="works__item-btn-block">
+                  <a href="03.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Taro Tech.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
